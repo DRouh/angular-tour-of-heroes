@@ -2,7 +2,9 @@
 {
     "files.exclude": {
         "**/*.js": { "when": "$(basename).ts"},
-        "**/*.js.map": { "when": "$(basename)"}
+        "**/*.js.map": { "when": "$(basename)"},
+        "**/npm-debug.log.*": true,
+        "node_modules": true
     }
 ,
 "typescript.tsdk": "./node_modules/typescript/lib"
